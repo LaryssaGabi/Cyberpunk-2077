@@ -1,0 +1,77 @@
+
+@media (max-width: 500px){
+    .cabecalho{
+        flex-wrap: wrap;
+    }
+
+    .logo{
+        width: 100px;
+        height: 70px;
+        margin-left: 2px;
+        top: 45%;
+        
+    }
+
+    .menu{
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    .home{
+        font-size: 12px;
+        margin-right: 2px;
+    }
+
+    .about{
+        font-size: 12px;
+        margin-right: 2px;
+        padding: 0px 15px;
+    }
+}
+
+@media (max-width: 1200px){
+
+    .titulo{
+        font-size: 27px;
+        margin: 4px;
+    }
+
+    .informacoes{
+        font-size: 18px;
+        white-space:normal;
+        margin: 8px;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+    .botao-trailer{
+        top: 160px;
+        left: 40%;
+    }
+    
+    .botao-trailer .play{
+        width: 100px;
+    }
+    
+}
+
+@media (max-width: 500px){
+    .modal .fechar-modal{
+        width: 30px;
+        line-height: 30px;
+    }
+
+    .modal #video{
+        width: 400px;
+        height: 225px;
+    }
+}
+
+@media (maz-width:376px) {
+    .modal #video{
+        width: 250px;
+        height: 140px;
+    }
+}

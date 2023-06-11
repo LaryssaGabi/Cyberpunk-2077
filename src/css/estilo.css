@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Coalition';
+    src: url('fonts/Coalition_v2.ttf') format('truetype');
+}
+
+body {
+    max-width: 1920px;
+    border: none;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #000;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    height: 75px;
+    padding: 9px;
+    background-image: linear-gradient(to bottom, #000000, #0000004f, #0000002f);
+    z-index: 2;
+}
+
+.logo {
+    width: 300px;
+    height: 150px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    height: 70%;
+    color: #000000;
+    border-radius: 20px;
+    font-weight: pointer;
+    transform: translateY(20%);
+
+}
+
+.home {
+    font-size: 20px;
+    padding: 0px 20px;
+    border-radius: 13px;
+    background-color: #F0FA0D;
+    margin-right: 37px;
+    border: none;
+    font-family: 'Coalition';
+}
+
+
+.about {
+    font-size: 20px;
+    padding: 0px 13px;
+    border-radius: 13px;
+    background-color: #F0FA0D;
+    margin-right: 90px;
+    border: none;
+    font-family: 'Coalition';
+}
+
+.layout {
+    z-index: 1;
+    width: 100%;
+    max-width: 1920px;
+	-webkit-mask-image: linear-gradient(to top, transparent 3%, black 100%);
+    position: relative;
+    bottom: 111px;
+}
+
+.titulo {
+    
+    color: #F0FA0D;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    bottom: 103px;
+    font-family: 'Coalition';
+}
+
+.informacoes {
+    color: #fff;
+    font-size: 27px;
+    text-align: center;
+    white-space: pre-line;
+    position: relative;
+    bottom: 100px;
+}
+
+.gallery{
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+}
+
+swiper-container {
+    width: 100%;
+    height: 490px;
+
+}
+
+swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+.botao-trailer{
+    margin: 0;
+    position:relative;
+    background-color: transparent;
+    top: 420px;
+    left: 45%;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-trailer .play{
+   width: 200px;
+}
+
+.misterio{
+    width: 100%;
+    max-width: 1920px;
+    bottom: 17px;
+    position: relative;
+    -webkit-mask-image: linear-gradient(to bottom,transparent 3%, black 100%);
+    z-index: -1;
+}
+
+
+.modal{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 52, 50, 0.749);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 3;
+}
+
+.conteudo-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 5px;
+    gap: 15px;
+}
+
+.fechar-modal{
+    background-color: #ffffff;
+    color: #F0FA0D;
+    font-weight: bold;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.modal iframe{
+    border-width: 0;
+    width: 640px;
+    height: 360px;
+}
+
+.modal.aberto{
+    opacity: 1;
+    visibility: visible;
+}
