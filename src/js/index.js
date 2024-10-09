@@ -13,9 +13,19 @@ botaoTrailer.addEventListener("click", ()=>{
     video.setAttribute("src" , linkDoVideo);
 });
 
-
-
 botaoFecharModal.addEventListener("click", ()=>{
     alternarModal();
     video.setAttribute("src", "");
+});
+
+const aboutLink = document.querySelector('.about a');
+const aboutSection = document.getElementById('titulo');
+
+aboutLink.addEventListener('click', function (event) {
+    event.preventDefault();
+    aboutSection.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center', 
+        inline: 'center'
+    });
 });
