@@ -1,26 +1,91 @@
-# Cyberpunk 2077
+# 🌃 Cyberpunk 2077 - Night City Awaits
 
-Este projeto é uma página web dedicada ao jogo **Cyberpunk 2077**, que utiliza HTML, CSS e JavaScript para exibir informações e interatividade.
+![Cyberpunk 2077](https://images.unsplash.com/photo-1559163499-413811fb2344?w=1200&h=400&fit=crop)
 
-## Estrutura do Código
+> Entre no futuro sombrio de Night City. Uma experiência RPG de mundo aberto ambientada numa megalópole obcecada por poder, glamour e cibernética.
 
-### HTML
-- **Cabeçalho (`<header>`):** Contém o logotipo do jogo e um menu de navegação com links para a página inicial e uma seção "ABOUT".
-- **Conteúdo Principal (`<main>`):**
-  - **Seção de Layout:** Exibe uma imagem representativa do layout do jogo.
-  - **Seção Sobre:** Fornece uma descrição do jogo, incluindo suas principais características e narrativa.
-  - **Galeria:** Implementa um carrossel de imagens usando o Swiper, permitindo a visualização de várias imagens relacionadas ao jogo.
-  - **Seção do Trailer:** Inclui um botão que, ao ser clicado, exibe um modal com um vídeo do YouTube sobre o jogo.
+## 🚀 Tecnologias
 
-### CSS
-- Utiliza arquivos de estilo para resetar estilos padrão, aplicar estilos personalizados e garantir responsividade.
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-### JavaScript
-- **Modal do Trailer:** Controla a abertura e fechamento do modal que contém o vídeo do trailer do jogo.
-- **Smooth Scroll:** Implementa uma rolagem suave ao clicar no link da seção "ABOUT", proporcionando uma melhor experiência ao usuário.
+- [React](https://react.dev/) - Biblioteca JavaScript para interfaces
+- [TypeScript](https://www.typescriptlang.org/) - Superset tipado de JavaScript
+- [Vite](https://vitejs.dev/) - Build tool e dev server
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitário
+- [Lucide React](https://lucide.dev/) - Ícones modernos
 
-## Tecnologias Utilizadas
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Swiper.js (para carrossel de imagens)
+## 📋 Pré-requisitos
+
+Antes de começar, você precisa ter instalado:
+
+- [Node.js](https://nodejs.org/) (versão 18 ou superior)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+
+## 🔧 Instalação
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/cyberpunk-2077.git
+```
+
+2. Acesse a pasta do projeto:
+```bash
+cd cyberpunk-2077
+```
+
+3. Instale as dependências:
+```bash
+npm install
+```
+
+## ▶️ Executando o projeto
+
+### Modo desenvolvimento
+```bash
+npm run dev
+```
+
+### Build para produção
+```bash
+npm run build
+```
+
+### Preview da build
+```bash
+npm run preview
+```
+
+## 📁 Estrutura do Projeto
+
+```
+cyberpunk-2077/
+├── public/
+│   └── favicon.png
+├── src/
+│   ├── components/
+│   │   └── ui/
+│   ├── pages/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── vite.config.ts
+```
+
+## 🎨 Features
+
+- ⚡ Interface responsiva com tema Cyberpunk
+- 🎮 Animações e efeitos visuais neon
+- 🌐 Design moderno inspirado em Night City
+- 📱 Compatível com dispositivos móveis
+
+
+
+---
+
+<p align="center">
+  <i>"Wake up, Samurai. We have a city to burn."</i> - Johnny Silverhand
+</p>

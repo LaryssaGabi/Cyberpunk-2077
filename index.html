@@ -1,129 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyberpunk 2077 - Night City Awaits</title>
+    <meta name="description" content="Entre no futuro sombrio de Night City. Cyberpunk 2077 - Uma experiência RPG de mundo aberto ambientada numa megalópole obcecada por poder, glamour e cibernética." />
+    <meta name="author" content="CD Projekt Red" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/favicon.png" />
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 
-    <link rel="shortcut icon" href="./src/imagens/faicon-icon.png" type="imagem/x-icon">
+    <meta property="og:title" content="Cyberpunk 2077 - Night City Awaits" />
+    <meta property="og:description" content="Entre no futuro sombrio de Night City. Experiência RPG de mundo aberto ambientada numa megalópole obcecada por poder, glamour e cibernética." />
+    <meta property="og:type" content="website" />
+  </head>
 
-
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/estilo.css">
-    <link rel="stylesheet" href="./src/css/scrollbar.css">
-    <link rel="stylesheet" href="./src/css/responsivel.css">
-
-
-    <title>Cyberpunk 2077</title>
-
-</head>
-
-<body>
-    <style>
-        @font-face {
-            font-family: 'Coalition';
-            src: url(fonts/coalition_v2.-webfont.woff);
-        }
-    </style>
-
-    <header class="cabecalho">
-        <a>
-            <img class="logo" src="./src/imagens/cyberpunk.png" alt="logo-cyberpunk">
-        </a>
-
-        <nav>
-            <ul class="menu">
-                <li class="home"><a href="#">HOME</a></li>
-                <li class="about"><a href="#titulo">ABOUT</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="1">
-            <div>
-                <img class="layout" src="./src/imagens/layout.jpg" alt="layout">
-            </div>
-
-        </section>
-
-        <section class="2">
-
-            <h1 id="titulo">NIGHT CITY MUDARÁ VOCÊ</h1>
-
-            <p class="informacoes">Cyberpunk 2077 é uma história de ação e aventura de mundo aberto
-                ambientada em Night City, uma megalópole obcecada por poder, glamour e
-                biomodificações. Você joga como V, um mercenário fora da lei atrás de um
-                implante único que carrega a chave da imortalidade. Você pode personalizar
-                aparatos cibernéticos, conjunto de habilidades e estilo de jogo do
-                personagem e explorar uma vasta cidade onde as decisões tomadasdefinem a
-                história e o mundo ao seu redor.</p>
-        </section>
-
-
-        <section class="gallery">
-            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
-                slides-per-view="3.5">
-
-                <swiper-slide>
-                    <img class="1" src="./src/imagens/luke.jpg">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="./src/imagens/fynike.jpg">
-                </swiper-slide>
-                <swiper-slide>
-                    <img class="2" src="./src/imagens/kalebe.jpg">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="./src/imagens/pin by.jpg">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="./src/imagens/cybery.jpg">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="./src/imagens/smifer.jpg">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="./src/imagens/ophenix.jpg">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="./src/imagens/robot.webp">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="./src/imagens/wikgy.jpg">
-                </swiper-slide>
-            </swiper-container>
-
-            </div>
-        </section>
-
-        <section class="4">
-            <button class="botao-trailer">
-                <img src="./src/imagens/botao-play.png" class="play" alt="play">
-            </button>
-            <a>
-                <img src="./src/imagens/misterio.jpg" alt="Misterio" class="misterio">
-            </a>
-
-            <div class="modal">
-                <div class="conteudo-modal">
-                    <span class="fechar-modal">X</span>
-
-                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/liuFhVXAlZw"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-
-        </section>
-
-    </main>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js" ></script>
-    <script src="./src/js/index.js"></script>
-
-
-</body>
-
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
