@@ -25,7 +25,7 @@ Antes de começar, você precisa ter instalado:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/cyberpunk-2077.git
+git clone https://github.com/LaryssaGabi/Cyberpunk-2077.git
 ```
 
 2. Acesse a pasta do projeto:
